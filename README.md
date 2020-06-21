@@ -1,1 +1,1 @@
-# javascript-oop-simpletaskapp
+# javascript-simpletaskapp-oop
