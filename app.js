@@ -1,4 +1,4 @@
-//Book class: Represents a book
+//Task class: Represents a Task object
 class Task {
     constructor(title, desc, due) {
         this.title = title;
@@ -96,7 +96,7 @@ class Store {
 
 
 
-//Event : Display Books
+//Event : Display Task
 document.addEventListener('DOMContentLoaded', UI.displayTasks);
 document.querySelector('#task-form').addEventListener('submit', (e) => {
 
@@ -112,7 +112,7 @@ document.querySelector('#task-form').addEventListener('submit', (e) => {
         UI.showAlert('please fill the necessary fields', 'danger');
     } else {
 
-        //Iniatiate book
+        //Iniatiate task
         const task = new Task(title, desc, due);
 
         //Add task to UI
@@ -148,8 +148,3 @@ $(function () {
 });
 
 
-function jan(hello) {
-    console.log(hello);
-}
-
-jan(() => 10 + 20);
