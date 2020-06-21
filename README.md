@@ -1,1 +1,2 @@
-# javascript-simpletaskapp-oop
+# javascript simpletaskapp using ES6 Classes
+
